@@ -14,6 +14,15 @@ namespace System.CookingItemTrigger
         private void OnDisable()  => CookingEventListener.st_vector-= setVector;
         private void setVector(Vector2 vector2) => this.vector2 = vector2;
         
+        protected virtual void Update()
+        {
+            // 每渲染帧捕捉按键
+            if (playerInRange && Input.GetKeyDown(KeyCode.E) && isFacingThisItem(playerTransform))
+            {
+                interactRequested = true;
+            }
+        }
+        
         protected virtual void OnTriggerEnter2D(Collider2D other)
         {
             if (other.CompareTag("Player"))
@@ -35,6 +44,15 @@ namespace System.CookingItemTrigger
             }
         }
         
+        protected void FixedUpdate()
+        {
+            if (interactRequested)
+            {
+                InteractionItem();
+
+                interactRequested = false; // 处理完后清除
+            }
+        }
         
         
         
@@ -47,6 +65,7 @@ namespace System.CookingItemTrigger
             return dot > 0.7f; 
         }
         
+        protected virtual void InteractionItem(){}
         
         
     }
