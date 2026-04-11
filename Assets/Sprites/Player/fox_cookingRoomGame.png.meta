@@ -1,0 +1,3854 @@
+fileFormatVersion: 2
+guid: c2cb203381a58c84d9c8d9064e4997b6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 468
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629ed43ae773b184288a733460b959b3
+      internalID: -652328020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 469
+        width: 21
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cefbbab4627882642943d498b1908ea7
+      internalID: 1414193819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_2
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 469
+        width: 21
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84005ad664af71643ae811951da85ae6
+      internalID: -281330080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_3
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 469
+        width: 21
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d122e3f185db2449865644dba49e41
+      internalID: -1062973259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_4
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 469
+        width: 20
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f5b0625586744458df954b462611d1
+      internalID: -274937142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_5
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 469
+        width: 20
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09f9fa4fd2174446bfcabba091348bd
+      internalID: -990573801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_6
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 469
+        width: 20
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f620746044f69ae47be4d7d3d915b8c7
+      internalID: 1471452417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_7
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 469
+        width: 20
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac764c0f8f6d8a747930f512b7eed44a
+      internalID: -258341286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_8
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 469
+        width: 20
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ebb09392f02374bab21de138c830a9
+      internalID: 1737574541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_9
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 470
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379d89fde58c4b141be479b730e9b92d
+      internalID: 718094711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_10
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 470
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41fef274776ea3c4ab71c4f1f52e447f
+      internalID: 499756758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_11
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 470
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7345f0b524e5564481dbd9e41c90c6a
+      internalID: -896587373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_12
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 470
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090d10ce185597848afaa5ecaa5d7df0
+      internalID: 1271367707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_13
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 470
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81abeef5a85f07b48b1853ba29f91128
+      internalID: 114903192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_14
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 470
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e8b2b7a5902ab45bb579eeda32bec9
+      internalID: 1027146820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_15
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 470
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c953866a6bf5844880fadb56a3b99b
+      internalID: -228436851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_16
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 470
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8cd36470db42e941ab6ce6308c73e41
+      internalID: -2131298892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_17
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 470
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c41d3b5f4fbfcf4c94de7c41b184454
+      internalID: 1878621493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_18
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 470
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d14be5398d2f0345b76c1753ac20979
+      internalID: 728315348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_19
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 470
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b097841997724f43b2fce20302e5a7a
+      internalID: -725153028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_20
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 476
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a7fa3a09312b04392362992a7ffe3a
+      internalID: 884601194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_21
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 422
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423a766b6a7f08d418def1cefe0d7559
+      internalID: 430558368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_22
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 423
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bcff61d62ff100419c48953c5ba5c8f
+      internalID: -1519911134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkright1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 423
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9f4bf4cb143344d8691c2a5ff92c13
+      internalID: -877189888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_24
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 437
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f551faf7f22105419c630e530c8d00d
+      internalID: 1618131585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_25
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 431
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622b04d2d06b64549aff4660645691d7
+      internalID: -305415280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_26
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 431
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b3acfdd27d9144d9de0224c2a73e81
+      internalID: 604794407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_27
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 431
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35947ad670fad71439563a928f0dc4f6
+      internalID: -1272929153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_28
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 437
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d197eb6319f7d84e97472055d96d85c
+      internalID: -1916741538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_29
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 423
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e337f59913e5c74c8ae49acab6c3a03
+      internalID: 1705758511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_30
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 432
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31b29aabd8fbaf479fabd2fbae37f7a
+      internalID: -606483535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_31
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 424
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80135be723d62bf46bf95cdb54d806b4
+      internalID: -1610630511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_32
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 425
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d47606b3a7acd0499f8e13f8f750c30
+      internalID: 424871608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_33
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 425
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60cd05fbbcb6c1942a45dce04225e339
+      internalID: -1260162525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_34
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 425
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81b3ffc995b78a4b8ff9fb73ac48a23
+      internalID: 1681528801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_35
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 425
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6250d4bceff9347a972daae0eab7a9
+      internalID: 1682165384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_36
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 425
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8dd859c2a49584d806c4913964383f
+      internalID: -689341915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_37
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 425
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6ff39e80a43d4498cd9a0941b5e5b7
+      internalID: 584312571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_38
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 425
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb811073adb8fe47a5b54aa50a1affc
+      internalID: -562288818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_39
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 425
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3c4b997e1f0684db4afefaefa17d0e
+      internalID: -1537154993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_40
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 425
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb48050dd646cc4cb57dc0c678e1282
+      internalID: 1337795550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_41
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 438
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b58482f2770d7498709f34d385c7ec
+      internalID: -466810349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_42
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 431
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a36f2b44fbfad544b2c83f5f0456eb7
+      internalID: -1343624082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_43
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 431
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22e4c2e57dbc634996da3f297827a02
+      internalID: 269005887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_44
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 393
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f3d03a10e659e438849403d6104a69
+      internalID: 641582009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_45
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 376
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c067731abe7d77e43b8cb1b71f1a3655
+      internalID: 1869222953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_46
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 377
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619cdd1e700a8664ea38edb245e1c9ec
+      internalID: 431501755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkright2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 377
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5badb4a463f0b048b0eb84e8971189e
+      internalID: -233922493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_48
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 385
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b7664cb10a3b645b20bf0b050a594b
+      internalID: -2022421192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_49
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 385
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71497fa190cf354db9858b273cdaf28
+      internalID: -982181885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_50
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 385
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4992c90c422d5424486071fbef028f56
+      internalID: -549327702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_51
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 385
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728f211d6dcc8e84fbbdcf777d80874e
+      internalID: 377231529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_52
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 385
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bddd34b69f50fc429a6af136802bb15
+      internalID: -163143414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_53
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 377
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10237595df1dbac4186e907543e41bbf
+      internalID: 1440980681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_54
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 386
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec320635c678bb429a96e2db5a43875
+      internalID: 1867280152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_55
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 379
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091e39aab2d68eb4b83ba8ce7325eab5
+      internalID: -733668717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_56
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 380
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b35a820b9275934db5eb73434bf2967
+      internalID: 191988341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_57
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 380
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5965a95fa50b8b4a9058c7df7e46919
+      internalID: -1171394485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_58
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 380
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933af66ddba27a34fb444a543c9175e1
+      internalID: -2054490920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_59
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 380
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062eec445ce58c14c974c174fdb680de
+      internalID: 1256478086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_60
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 380
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688c3ed58c79c484aaa6bae87c1ed7a0
+      internalID: 579037523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_61
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 380
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3565baefd8dc946a860dcc2935b871
+      internalID: 1533149202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_62
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 380
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb29c9d7496afe14e9dafbcb564e5ba0
+      internalID: 1497383435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_63
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 380
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd8e942ac8ea224e9163c9b9172ae42
+      internalID: 803939924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_64
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 380
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8991c993b428d7e49a5969e1d4c1b298
+      internalID: 2037051947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_65
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 348
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6217ccf764c2294ab60147303c91c68
+      internalID: -2035767540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_66
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 330
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c010c27480250f743ab1b9071fe02de6
+      internalID: -1861975158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_67
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 331
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4488a79633c154c99236abb8b74e4b
+      internalID: -1481182050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkright3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 331
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19f8631306769e499c882482220e5b4
+      internalID: -811594099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_69
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 339
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b360c2b6497903a459b6e8ff1529bf22
+      internalID: 1406417635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_70
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 340
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57414c4b9bcff534d8b564601608edb0
+      internalID: -1702823040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_71
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 340
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4b93ca9e991204b8176e31dd49b3b9
+      internalID: 1470961184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_72
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 340
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 867ed5da88d01dc4f99ba813d716eef0
+      internalID: -1494784210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkup10
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 340
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb318ea292c84c4aa4bd177d299630b
+      internalID: -1156475689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_74
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 332
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dace6476a83fcff4395efc050eed93b7
+      internalID: 389659780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_75
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 341
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83b94c4d96cc624cb4118a3d6ea4bdf
+      internalID: -718596198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_76
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 334
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eaf2fc5fae24ea42ac28896c7279a40
+      internalID: -1085734152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_77
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 335
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c66d95723a5a41b4fb3c3e33c488c29d
+      internalID: -1530523344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkup1
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 335
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddad7e8b2736c8e4cadfe032bbf12197
+      internalID: 1170448956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkup2
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 335
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac29c1686f17b9d429dedb67c57ef107
+      internalID: -753946270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkup3
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 335
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a49cc3850bdb284ca2b7812f896a270
+      internalID: 1868915356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkup4
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 335
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9a9cf1500c89d40805b61e297255eb
+      internalID: 510055868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkup5
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 335
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2ce95c7df7a2746b999bcfe7f901e9
+      internalID: -1018633217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkup6
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 335
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849eebcba26c3194ab4b62dc5bb3fa87
+      internalID: -569170155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkup7
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 335
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f2d4148c2455334d88f87fc21e4a52d
+      internalID: -288470571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkup8
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 335
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f3f34a1e5cf924680a6eec07cbd608
+      internalID: -393128778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkup9
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 303
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c03f9a084a061444f95dcf810df643d0
+      internalID: -977364021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_87
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 304
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6853db56d2f2fc84287bf90d825b4662
+      internalID: -1026193559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_88
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 284
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682f7a2322984df48bc8ca327e048283
+      internalID: 939468435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_89
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 285
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65e7286a8078a842b4a8a3c0504cd21
+      internalID: 73755713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkright4
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 285
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cde9a95e38eb874e99db0db6ffcb50d
+      internalID: -2027268929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_91
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 294
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 800eca9715f492f47a61a22f48e725b7
+      internalID: -1602101410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_92
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 295
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79775bc4f1e03f640909e03e399d1cee
+      internalID: -793167305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_93
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 295
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ffb89e91c72b743a04f3760b227194
+      internalID: -245981498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_94
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 295
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0cfe3e804dfa440a7bcbb4206e4426
+      internalID: 1847089669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_95
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 295
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7287f4ef91463904fb49804ed9573bfa
+      internalID: -1127606372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_96
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 287
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a08a32065fbf45458df981667e14946
+      internalID: 997019153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_97
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 296
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0cf13c3145ac0a4798efeb20884301e
+      internalID: -1473779987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_98
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 290
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9446fa4f160bfd444b19241cab9ff299
+      internalID: 148952970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_99
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 291
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf996ed45702c145a41d17176d70ecd
+      internalID: 27685327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_100
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 260
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d2512447daad04ca0f334222f405fe
+      internalID: 788980058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_101
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 238
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df0ff95ef186d942a9db54cc0011358
+      internalID: 1026440104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_102
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 239
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336a46b2ff9b5584689449c72688a509
+      internalID: -702043500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkright5
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 239
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 842d5f0198d38be4e90e03812cddacf2
+      internalID: 133991765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_104
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 249
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab8cda61efd3614b9492d29d5353bf2
+      internalID: 1077653095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_105
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 250
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f26a25a2bf84ee4dae95ec453fcce42
+      internalID: 89458979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_106
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 250
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865c63c83ff5e674b861cfc0010cc0d6
+      internalID: 1126068212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_107
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 250
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b66c35549a715624fa1bbf7fb0db4076
+      internalID: 1218825510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_108
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 250
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c326a9a523a43448f7fee9317779e4
+      internalID: -717419036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_109
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 243
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6143107c4236748aa76eaec890126a
+      internalID: 1146552137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_110
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 252
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da38d759f9d752644b6217085d45fa70
+      internalID: -998241353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_111
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 259
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83191d43ea211c4f820f1a7a5db0b37
+      internalID: -1120561760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_112
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 252
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1728b33cf1dd6334b964405be2bdc284
+      internalID: -828718589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_113
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 192
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ecef6fc7b7be7f479b8ba3a5e2b0201
+      internalID: 305372803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_114
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 193
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2d0ea04de3a4f4594c6ab06fed4166
+      internalID: 1734696985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkright6
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 193
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30114c473553bb64d90d17ab41c5b797
+      internalID: -371833807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_116
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 205
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c6ad90a5fbe3449a20978e8799d4bf
+      internalID: 579737909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_117
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 206
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eaf87224e5dab84399bbe59d7223150
+      internalID: 1461154362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_118
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 206
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee8ee6bc77f118499e44a9e80471584
+      internalID: 644023957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_119
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 206
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70535768d2853249b84de9a437ac539
+      internalID: -782755801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_120
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 206
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ac0e93cdddd7f499aed95c7d404c26
+      internalID: 363101694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_121
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 198
+        width: 18
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014e6cfdcf2fb134cbd1ee9c52e4bc78
+      internalID: 1595359141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_122
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 207
+        width: 18
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0362758135ac0694388c237478fd1361
+      internalID: -1836447629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_123
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 207
+        width: 18
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6cab4b7b50430b46928a6c76b046464
+      internalID: 1234918714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_124
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 146
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5449a42b6cdbb4448850b5405690e31
+      internalID: 1354786438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_125
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 147
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a48e4b95b8a88428f6e1797d45873a
+      internalID: 1633559718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkright7
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 147
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32cb0b03c758d7645a5734e6790f28cf
+      internalID: -677246587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_127
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 159
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613966778d8bf594b9d8a6101accf9f6
+      internalID: -1694417744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_128
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 159
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab647ebb00ab9a42aee5c50eeadc8fe
+      internalID: 1447522759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_129
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 160
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933cdbfffdfb3cc4da6c1ababcc1f22c
+      internalID: -1673192680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_130
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 160
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4cf58aad6c5ac49bada3b04d0cb8f1
+      internalID: 866475662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_131
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 160
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d5720ca8e52c642a42f66da6310bce
+      internalID: -925711778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_132
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 160
+        width: 17
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a01139af176b1040809e7505c52584c
+      internalID: 1465673437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_133
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 167
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8348c79f64e2584a98a093befcaf08a
+      internalID: -2032076784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_134
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 162
+        width: 18
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 578b5724f1318264b87a1aba4566890b
+      internalID: -1428082259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_135
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 164
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c1d33105af7eb5429f8694629b91b93
+      internalID: 1760946102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_136
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 160
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d692bb90ec2fe448a819995176d9ad
+      internalID: 2028831656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkright10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 100
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b995cb2ba8b3a5f4ba846113c5e90958
+      internalID: -456722962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkright
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 101
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6952b62017093640bab0bd8ec527b47
+      internalID: 1978589609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkright8
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 101
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93317e4bbb977474693213a954e533ef
+      internalID: 1327476181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_140
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 113
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ffc5d3ab114b6845a09b78c3e621feb
+      internalID: 1535046715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_141
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 113
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e5a15797419e347b17825c5a5d7029
+      internalID: 514039456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_142
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 114
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376c72f19c927b54ea3e19336e299d40
+      internalID: 762612590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_143
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 114
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd31cbc66c0c53a439391eb404364bf4
+      internalID: 1187095421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_144
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 114
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172640007d191674e93730eaf0d33e02
+      internalID: -1503297469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_145
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 115
+        width: 18
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 432e3470e8e6d08498cc94d126a383c6
+      internalID: -1139395507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_146
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 115
+        width: 18
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f48c18123d644488fec5867facf27a
+      internalID: -1698328823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_147
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 119
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22a51932e32ee34e99cf95577536203
+      internalID: -809372790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_148
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 54
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c97ddf6581a8b4cb1d1964705dd5c5
+      internalID: 561287744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_149
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 55
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f25496c9595a394caee91db9606db8b
+      internalID: 227590075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkright9
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 55
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680ba970bcac6224a9a12315ba6ce809
+      internalID: -985513548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_151
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 67
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9b9ec1b49a876428b5e0b3808d2324
+      internalID: -1430633993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_152
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 67
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bfe6b44ab150774aa67bbe9e9b68cbd
+      internalID: -1901909121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_153
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 68
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a3a5e5b294a1744b0229df5502665c
+      internalID: -392792627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_154
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 68
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b6d8ba953e7bc409445c8f3756a2bf
+      internalID: -160494961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_155
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 68
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3b2d18d730ab9488d634cb96b64c8e
+      internalID: 234081474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_156
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 70
+        width: 18
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c40d5f8b6f3e947ac47d2050f233b5
+      internalID: -2033285248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_157
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 70
+        width: 18
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f02ebe35e1168a747aa02c72c2ef20ab
+      internalID: -760755926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_158
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 76
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dfd62b80b3d60747b9b87a104d577ec
+      internalID: 671822758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_159
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 8
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4422e8069ed6c4b81d478e5c49ad6c
+      internalID: -1636486734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_160
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 9
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b87e048c2d1dc44190b2d4538c6787e
+      internalID: -1621735905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_161
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 9
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5569d6e82b3ec9741bb4aaf9d2c85c63
+      internalID: 1508485011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_162
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 21
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d70a06d78bef8409a61d4adaeddfbd
+      internalID: 629632520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_163
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 21
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30bed0f95ddf7364f948c2dc539a5920
+      internalID: 790615268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_164
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 22
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf38b9e580b91fe449979cb1961fc9dd
+      internalID: 1372973449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_165
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 22
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288b1e358e3d2d14983f0f6d3484ec59
+      internalID: 1818498212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_166
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 22
+        width: 17
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a939a6da42edb6b479acfbea15b21ad3
+      internalID: 1501957124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_167
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 22
+        width: 17
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf52f328afbc0a943a02d00e7526590d
+      internalID: -1189534483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_168
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 25
+        width: 18
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7996713b2ad49408d6f1d6fa2dc29d
+      internalID: 462759252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_cookingRoomGame_169
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 25
+        width: 18
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d349a2278b7338f4ba9ebc137af1b1d3
+      internalID: -1363032215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      fox_cookingRoomGame_0: -652328020
+      fox_cookingRoomGame_1: 1414193819
+      fox_cookingRoomGame_10: 499756758
+      fox_cookingRoomGame_100: 788980058
+      fox_cookingRoomGame_101: 1026440104
+      fox_cookingRoomGame_102: -702043500
+      fox_cookingRoomGame_104: 1077653095
+      fox_cookingRoomGame_105: 89458979
+      fox_cookingRoomGame_106: 1126068212
+      fox_cookingRoomGame_107: 1218825510
+      fox_cookingRoomGame_108: -717419036
+      fox_cookingRoomGame_109: 1146552137
+      fox_cookingRoomGame_11: -896587373
+      fox_cookingRoomGame_110: -998241353
+      fox_cookingRoomGame_111: -1120561760
+      fox_cookingRoomGame_112: -828718589
+      fox_cookingRoomGame_113: 305372803
+      fox_cookingRoomGame_114: 1734696985
+      fox_cookingRoomGame_116: 579737909
+      fox_cookingRoomGame_117: 1461154362
+      fox_cookingRoomGame_118: 644023957
+      fox_cookingRoomGame_119: -782755801
+      fox_cookingRoomGame_12: 1271367707
+      fox_cookingRoomGame_120: 363101694
+      fox_cookingRoomGame_121: 1595359141
+      fox_cookingRoomGame_122: -1836447629
+      fox_cookingRoomGame_123: 1234918714
+      fox_cookingRoomGame_124: 1354786438
+      fox_cookingRoomGame_125: 1633559718
+      fox_cookingRoomGame_127: -1694417744
+      fox_cookingRoomGame_128: 1447522759
+      fox_cookingRoomGame_129: -1673192680
+      fox_cookingRoomGame_13: 114903192
+      fox_cookingRoomGame_130: 866475662
+      fox_cookingRoomGame_131: -925711778
+      fox_cookingRoomGame_132: 1465673437
+      fox_cookingRoomGame_133: -2032076784
+      fox_cookingRoomGame_134: -1428082259
+      fox_cookingRoomGame_135: 1760946102
+      fox_cookingRoomGame_136: 2028831656
+      fox_cookingRoomGame_14: 1027146820
+      fox_cookingRoomGame_140: 1535046715
+      fox_cookingRoomGame_141: 514039456
+      fox_cookingRoomGame_142: 762612590
+      fox_cookingRoomGame_143: 1187095421
+      fox_cookingRoomGame_144: -1503297469
+      fox_cookingRoomGame_145: -1139395507
+      fox_cookingRoomGame_146: -1698328823
+      fox_cookingRoomGame_147: -809372790
+      fox_cookingRoomGame_148: 561287744
+      fox_cookingRoomGame_149: 227590075
+      fox_cookingRoomGame_15: -228436851
+      fox_cookingRoomGame_151: -1430633993
+      fox_cookingRoomGame_152: -1901909121
+      fox_cookingRoomGame_153: -392792627
+      fox_cookingRoomGame_154: -160494961
+      fox_cookingRoomGame_155: 234081474
+      fox_cookingRoomGame_156: -2033285248
+      fox_cookingRoomGame_157: -760755926
+      fox_cookingRoomGame_158: 671822758
+      fox_cookingRoomGame_159: -1636486734
+      fox_cookingRoomGame_16: -2131298892
+      fox_cookingRoomGame_160: -1621735905
+      fox_cookingRoomGame_161: 1508485011
+      fox_cookingRoomGame_162: 629632520
+      fox_cookingRoomGame_163: 790615268
+      fox_cookingRoomGame_164: 1372973449
+      fox_cookingRoomGame_165: 1818498212
+      fox_cookingRoomGame_166: 1501957124
+      fox_cookingRoomGame_167: -1189534483
+      fox_cookingRoomGame_168: 462759252
+      fox_cookingRoomGame_169: -1363032215
+      fox_cookingRoomGame_17: 1878621493
+      fox_cookingRoomGame_18: 728315348
+      fox_cookingRoomGame_19: -725153028
+      fox_cookingRoomGame_2: -281330080
+      fox_cookingRoomGame_20: 884601194
+      fox_cookingRoomGame_21: 430558368
+      fox_cookingRoomGame_22: -1519911134
+      fox_cookingRoomGame_24: 1618131585
+      fox_cookingRoomGame_25: -305415280
+      fox_cookingRoomGame_26: 604794407
+      fox_cookingRoomGame_27: -1272929153
+      fox_cookingRoomGame_28: -1916741538
+      fox_cookingRoomGame_29: 1705758511
+      fox_cookingRoomGame_3: -1062973259
+      fox_cookingRoomGame_30: -606483535
+      fox_cookingRoomGame_31: -1610630511
+      fox_cookingRoomGame_32: 424871608
+      fox_cookingRoomGame_33: -1260162525
+      fox_cookingRoomGame_34: 1681528801
+      fox_cookingRoomGame_35: 1682165384
+      fox_cookingRoomGame_36: -689341915
+      fox_cookingRoomGame_37: 584312571
+      fox_cookingRoomGame_38: -562288818
+      fox_cookingRoomGame_39: -1537154993
+      fox_cookingRoomGame_4: -274937142
+      fox_cookingRoomGame_40: 1337795550
+      fox_cookingRoomGame_41: -466810349
+      fox_cookingRoomGame_42: -1343624082
+      fox_cookingRoomGame_43: 269005887
+      fox_cookingRoomGame_44: 641582009
+      fox_cookingRoomGame_45: 1869222953
+      fox_cookingRoomGame_46: 431501755
+      fox_cookingRoomGame_48: -2022421192
+      fox_cookingRoomGame_49: -982181885
+      fox_cookingRoomGame_5: -990573801
+      fox_cookingRoomGame_50: -549327702
+      fox_cookingRoomGame_51: 377231529
+      fox_cookingRoomGame_52: -163143414
+      fox_cookingRoomGame_53: 1440980681
+      fox_cookingRoomGame_54: 1867280152
+      fox_cookingRoomGame_55: -733668717
+      fox_cookingRoomGame_56: 191988341
+      fox_cookingRoomGame_57: -1171394485
+      fox_cookingRoomGame_58: -2054490920
+      fox_cookingRoomGame_59: 1256478086
+      fox_cookingRoomGame_6: 1471452417
+      fox_cookingRoomGame_60: 579037523
+      fox_cookingRoomGame_61: 1533149202
+      fox_cookingRoomGame_62: 1497383435
+      fox_cookingRoomGame_63: 803939924
+      fox_cookingRoomGame_64: 2037051947
+      fox_cookingRoomGame_65: -2035767540
+      fox_cookingRoomGame_66: -1861975158
+      fox_cookingRoomGame_67: -1481182050
+      fox_cookingRoomGame_69: 1406417635
+      fox_cookingRoomGame_7: -258341286
+      fox_cookingRoomGame_70: -1702823040
+      fox_cookingRoomGame_71: 1470961184
+      fox_cookingRoomGame_72: -1494784210
+      fox_cookingRoomGame_74: 389659780
+      fox_cookingRoomGame_75: -718596198
+      fox_cookingRoomGame_76: -1085734152
+      fox_cookingRoomGame_77: -1530523344
+      fox_cookingRoomGame_8: 1737574541
+      fox_cookingRoomGame_87: -1026193559
+      fox_cookingRoomGame_88: 939468435
+      fox_cookingRoomGame_89: 73755713
+      fox_cookingRoomGame_9: 718094711
+      fox_cookingRoomGame_91: -1602101410
+      fox_cookingRoomGame_92: -793167305
+      fox_cookingRoomGame_93: -245981498
+      fox_cookingRoomGame_94: 1847089669
+      fox_cookingRoomGame_95: -1127606372
+      fox_cookingRoomGame_96: 997019153
+      fox_cookingRoomGame_97: -1473779987
+      fox_cookingRoomGame_98: 148952970
+      fox_cookingRoomGame_99: 27685327
+      walkright: 1978589609
+      walkright1: -877189888
+      walkright10: -456722962
+      walkright2: -233922493
+      walkright3: -811594099
+      walkright4: -2027268929
+      walkright5: 133991765
+      walkright6: -371833807
+      walkright7: -677246587
+      walkright8: 1327476181
+      walkright9: -985513548
+      walkup1: 1170448956
+      walkup10: -1156475689
+      walkup2: -753946270
+      walkup3: 1868915356
+      walkup4: 510055868
+      walkup5: -1018633217
+      walkup6: -569170155
+      walkup7: -288470571
+      walkup8: -393128778
+      walkup9: -977364021
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
