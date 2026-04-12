@@ -1,4 +1,5 @@
 using UnityEngine;
+using Manager.InventoryManager;
 
 namespace System.CookingItemTrigger
 {
@@ -6,6 +7,7 @@ namespace System.CookingItemTrigger
     {
         protected override void InteractionItem()
         {
+            Inventory.instance.AddItem(item);
             Debug.Log("Tomato Interact");
         }
         

@@ -5,6 +5,8 @@ namespace System.CookingItemTrigger
 {
     public class CookingItemParent:MonoBehaviour,CookingRoomItem
     {
+        public Item item;
+        
         protected Vector2 vector2;
         protected bool interactRequested = false;
         protected bool playerInRange = false;
