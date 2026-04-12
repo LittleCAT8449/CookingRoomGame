@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.CookingItemTrigger;
 using UnityEngine;
 
-public class RiceTrigger : CookingItemParent
+public class RiceTrigger1 : CookingItemParent
 {
     protected override void InteractionItem()
     {

@@ -1126,7 +1126,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8593678723543859196}
   - component: {fileID: 6747058403437113267}
-  - component: {fileID: 2052913476129928073}
+  - component: {fileID: 8278708013145212299}
   m_Layer: 0
   m_Name: flour1
   m_TagString: Untagged
@@ -1194,7 +1194,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.026084, y: 0.63482416}
   m_EdgeRadius: 0
---- !u!114 &2052913476129928073
+--- !u!114 &8278708013145212299
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1203,7 +1203,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5980792523843247990}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70311d21b23429442bc30d93da2ce141, type: 3}
+  m_Script: {fileID: 11500000, guid: 5971cd3e04c41dc4d8b74caebdcf1c62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &6165589042906396626
@@ -2003,7 +2003,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6474053442791913010}
   - component: {fileID: 5572731192766305873}
-  - component: {fileID: 2566286778389637216}
+  - component: {fileID: 6503151533560230621}
   m_Layer: 0
   m_Name: rice2
   m_TagString: Untagged
@@ -2071,7 +2071,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.74117947, y: 0.84470797}
   m_EdgeRadius: 0
---- !u!114 &2566286778389637216
+--- !u!114 &6503151533560230621
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2080,6 +2080,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 8980849764926190534}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d97424cf5c3c9fc41b9bae60fb47a826, type: 3}
+  m_Script: {fileID: 11500000, guid: faf73011b7d15bb44b8f11d0f74ac803, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

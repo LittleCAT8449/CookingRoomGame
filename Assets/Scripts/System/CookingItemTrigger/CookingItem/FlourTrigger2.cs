@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.CookingItemTrigger;
 using UnityEngine;
 
-public class FlourTrigger : CookingItemParent
+public class FlourTrigger2 : CookingItemParent
 {
    protected override void InteractionItem()
    {

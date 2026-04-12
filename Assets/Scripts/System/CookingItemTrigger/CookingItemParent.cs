@@ -30,9 +30,15 @@ namespace System.CookingItemTrigger
                 playerInRange = true;
                 playerTransform = other.transform;
             }
+            
         }
 
-        
+        private void OnTriggerStay2D(Collider2D other)
+        {
+           
+            CookingEventListener.st_OnEnterType(GetType());
+        }
+
 
         protected virtual void OnTriggerExit2D(Collider2D other)
         {
@@ -42,6 +48,7 @@ namespace System.CookingItemTrigger
                 playerTransform = null;
                 interactRequested = false; // 离开时重置请求
             }
+            CookingEventListener.st_OnExitType();
         }
         
         protected void FixedUpdate()
