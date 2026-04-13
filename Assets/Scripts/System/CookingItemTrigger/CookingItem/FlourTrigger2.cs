@@ -8,7 +8,7 @@ public class FlourTrigger2 : CookingItemParent
 {
    protected override void InteractionItem()
    {
-      Inventory.instance.AddItem(item);
+      Inventory.Instance.AddItem(item);
       Debug.Log("Flour Trigger");
    }
 }

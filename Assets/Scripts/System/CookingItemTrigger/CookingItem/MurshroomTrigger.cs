@@ -8,7 +8,7 @@ public class MurshroomTrigger : CookingItemParent
 {
     protected override void InteractionItem()
     {
-        Inventory.instance.AddItem(item);
+        Inventory.Instance.AddItem(item);
         Debug.Log("MurshroomTrigger");
     }
 }

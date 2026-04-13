@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace Utils
 {
-    public interface CookingRoomItem
+    public interface ICookingRoomItem
     {
 
         public void InteractionItem(){}

@@ -48,7 +48,7 @@ namespace Manager.InteractManager
             switch (type)
             {
                 case Type t when t ==typeof(CuttingBoardTrigger):
-                    if (Inventory.instance.HasItem(apple))
+                    if (Inventory.Instance.HasItem(apple))
                     {
                         appleObejct.SetActive(true);
                         backGround.SetActive(true);

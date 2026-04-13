@@ -5,12 +5,12 @@ namespace Manager.InventoryManager
 {
     public class Inventory : MonoBehaviour
     {
-        public static Inventory instance;
+        public static Inventory Instance;
         public Item[] items= new Item[4];
 
         private void Awake()
         {
-            instance = this;
+            Instance = this;
         }
 
         private void Update()
@@ -35,6 +35,12 @@ namespace Manager.InventoryManager
             
         }
 
+        public void SetItem(int index,Item item)
+        {
+            items[index] = item;
+            UpdateUI();
+        }
+
         public bool HasItem(Item item)
         {
             foreach (Item i in items)
@@ -55,6 +61,8 @@ namespace Manager.InventoryManager
                 Debug.Log("Inventory cleared");
             }
         }
+        
+        public Item[] GetItems(){return items;}
 
         public void UpdateUI()
         {

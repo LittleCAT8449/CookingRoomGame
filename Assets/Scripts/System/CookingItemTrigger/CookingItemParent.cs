@@ -3,7 +3,7 @@ using Utils;
 
 namespace System.CookingItemTrigger
 {
-    public class CookingItemParent:MonoBehaviour,CookingRoomItem
+    public class CookingItemParent:MonoBehaviour,ICookingRoomItem
     {
         public Item item;
         

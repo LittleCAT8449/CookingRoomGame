@@ -20,6 +20,9 @@ namespace Manager.InteractManager
         public GameObject flour1;
         public GameObject flour2;
         
+        public GameObject cuttingBoard;
+        public GameObject pastry;
+        
         
         protected override void OnEnable()
         {
@@ -91,7 +94,11 @@ namespace Manager.InteractManager
                     flour2.SetActive(true);
                     Debug.Log("Flour2");
                     break;
-                case Type t when t ==typeof(CuttingBoardTrigger):
+                case Type t when t == typeof(CuttingBoardTrigger):
+                    cuttingBoard.SetActive(true);
+                    break;
+                case Type t when t == typeof(PastryBoardTrigger):
+                    pastry.SetActive(true);
                     break;
                 default:
                     Debug.LogError(type.ToString());
@@ -115,6 +122,8 @@ namespace Manager.InteractManager
             rice2.SetActive(false);
             flour1.SetActive(false);
             flour2.SetActive(false);
+            cuttingBoard.SetActive(false);
+            pastry.SetActive(false);
         }
         
         protected override void SetType(Type type) => SwitchIcon(type);

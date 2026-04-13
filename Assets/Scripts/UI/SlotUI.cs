@@ -15,6 +15,7 @@ public class SlotUI : MonoBehaviour
     private void Awake()
     {
         slots[slotIndex] = this;
+        icon.enabled = false;
     }
 
     public void SetItem(Item item)
@@ -33,7 +34,7 @@ public class SlotUI : MonoBehaviour
 
     public void OnClickClear()
     {
-        Inventory.instance.ClearItem(slotIndex);
+        Inventory.Instance.ClearItem(slotIndex);
     }
     
 }

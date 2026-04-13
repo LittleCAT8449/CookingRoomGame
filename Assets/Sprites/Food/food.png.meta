@@ -643,7 +643,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: food_26
+      name: dough
       rect:
         serializedVersion: 2
         x: 16
@@ -895,6 +895,7 @@ TextureImporter:
       carrot: -1545854894
       cheese: -1964706373
       cucumber: -1696521131
+      dough: 496888982
       flour: 1788391160
       food_0: 1884232824
       food_10: -1183652212
@@ -904,7 +905,6 @@ TextureImporter:
       food_20: -1759373770
       food_24: 21657342
       food_25: -1987186769
-      food_26: 496888982
       food_28: 1118586026
       food_31: 1383209115
       food_32: -823794388
