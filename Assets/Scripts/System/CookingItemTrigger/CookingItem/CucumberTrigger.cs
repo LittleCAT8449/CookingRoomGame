@@ -8,7 +8,7 @@ public class Cucumbertrigger : CookingItemParent
 {
     protected override void InteractionItem()
     {
-        Inventory.instance.AddItem(item);
+        Inventory.Instance.AddItem(item);
         Debug.Log("Cucumber Trigger");
     }
 }
