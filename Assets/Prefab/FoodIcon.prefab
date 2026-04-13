@@ -978,7 +978,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7942659077237421106}
-  - component: {fileID: 734839938491863466}
   m_Layer: 0
   m_Name: FoodIcon
   m_TagString: Untagged
@@ -1014,31 +1013,6 @@ Transform:
   - {fileID: 1273604466462981495}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &734839938491863466
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3096667210586245055}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50529d25ba1c472aac81feef64847d05, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  apple: {fileID: 390174413349397833}
-  tomato: {fileID: 1586012726365082474}
-  potato: {fileID: 1285729136601344495}
-  pumpkin: {fileID: 859573872963674602}
-  carrot: {fileID: 4700526567563685358}
-  murshroom: {fileID: 4258068886733362373}
-  cucumber: {fileID: 3999214163662563179}
-  cheese: {fileID: 1987838457786661840}
-  noodles: {fileID: 1538070265895198048}
-  rice1: {fileID: 2326140319416884674}
-  rice2: {fileID: 576933467233416663}
-  flour1: {fileID: 4286219397853016548}
-  flour2: {fileID: 567759079868882249}
 --- !u!1 &3547732076828400394
 GameObject:
   m_ObjectHideFlags: 0

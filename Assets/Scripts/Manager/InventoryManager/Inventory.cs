@@ -26,6 +26,7 @@ namespace Manager.InventoryManager
                 {
                     items[i] = item;
                     Debug.Log(items[i].name+" added");
+                    UpdateUI();
                     break;
                 }
                 
@@ -34,12 +35,35 @@ namespace Manager.InventoryManager
             
         }
 
+        public bool HasItem(Item item)
+        {
+            foreach (Item i in items)
+            {
+                if (i.name == item.name)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
         public void ClearItem(int index)
         {
             if (index >= 0 && index < 4)
             {
                 items[index] = null;
+                UpdateUI();
                 Debug.Log("Inventory cleared");
+            }
+        }
+
+        public void UpdateUI()
+        {
+            for (int i = 0; i < 4; i++)
+            {
+                if (SlotUI.slots[i] != null)
+                {
+                    SlotUI.slots[i].SetItem(items[i]);
+                }
             }
         }
         
