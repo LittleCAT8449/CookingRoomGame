@@ -1,4 +1,5 @@
 using Manager.InventoryManager;
+using Unity.VisualScripting;
 using UnityEngine;
 using Utils;
 
@@ -7,7 +8,11 @@ namespace System.CookerInteract
     public class PastryBoard : InteractCookerParent
     {
        
+        
         public Item dough;
+        private int globaleIndex;
+
+        
         
         public override void PressNumber()
         {
@@ -43,14 +48,29 @@ namespace System.CookerInteract
                 switch (itemName)
                 {
                     case "flour":
-                        
-                        SetInventory(index,dough);
+                       
+                        PastryBar.Instance.setUIActive();
+                        PastryBar.Instance.setMakingStart = true;
+                        globaleIndex = index;
                         break;
                         
                 }
             }
         }
-        
-        
+
+        private void OnEnable()
+        {
+            CookingEventListener.doughMakingDone += setDough;
+        }
+
+        private void OnDisable()
+        {
+            CookingEventListener.doughMakingDone -= setDough;
+        }
+
+        private void setDough()
+        {
+            Inventory.Instance.SetItem(globaleIndex,dough);
+        }
     }
 }

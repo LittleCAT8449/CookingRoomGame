@@ -8,6 +8,7 @@ public class CookingEventListener
    public static event Action<Vector2> st_vector;
    public static event Action<Type> st_enter_type;
    public static event Action st_exit_type;
+   public static event Action doughMakingDone;
    
    
    
@@ -25,6 +26,11 @@ public class CookingEventListener
    public static void st_OnExitType()
    {
       st_exit_type?.Invoke();
+   }
+
+   public static void st_doughMakingDone()
+   {
+      doughMakingDone?.Invoke();
    }
 
 
