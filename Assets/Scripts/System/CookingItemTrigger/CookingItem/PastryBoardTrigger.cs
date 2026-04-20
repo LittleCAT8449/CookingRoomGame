@@ -7,6 +7,5 @@ public class PastryBoardTrigger : CookingItemParent
 {
     protected override void InteractionItem()
     {
-        Debug.Log("Pastry Trigger");
     }
 }

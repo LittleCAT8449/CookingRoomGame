@@ -9,7 +9,7 @@ namespace System.CookerInteract
         protected Item[] items;
         protected Item item;
         
-        protected void Awake()
+        protected void Start()
         {
             items=Inventory.Instance.GetItems();
         }

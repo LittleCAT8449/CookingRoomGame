@@ -44,55 +44,55 @@ namespace Manager.InteractManager
             {
                 case Type t when t == typeof(AppleTrigger):
                     apple.SetActive(true);
-                    Debug.Log("Apple");
+                    
                     break;
                 case Type t when t == typeof(TomatoTrigger):
                     tomato.SetActive(true);
-                    Debug.Log("Tomato");
+                    
                     break;
                 case Type t  when t == typeof(PotatoTrigger):
                     potato.SetActive(true);
-                    Debug.Log("Potato");
+                    
                     break;
                 case Type t when t == typeof(PumpkinTrigger):
                     pumpkin.SetActive(true);
-                    Debug.Log("Pumpkin");
+                    
                     break;
                 case Type t  when t == typeof(CarrotTrigger):
                     carrot.SetActive(true);
-                    Debug.Log("Carrot");
+                    
                     break;
                 case Type t when t  == typeof(MurshroomTrigger):
                     murshroom.SetActive(true);
-                    Debug.Log("Murshroom");
+                    
                     break;
                 case Type t when  t == typeof(CheeseTrigger):
                     cheese.SetActive(true);
-                    Debug.Log("Cheese");
+                    
                     break;
                 case Type t when t == typeof(Cucumbertrigger):
                     cucumber.SetActive(true);
-                    Debug.Log("Cucumber");
+                    
                     break;
                 case Type t when t == typeof(NoodlesTrigger):
                     noodles.SetActive(true);
-                    Debug.Log("Noodles");
+                    
                     break;
                 case Type t when t ==typeof(RiceTrigger1):
                     rice1.SetActive(true);
-                    Debug.Log("Rice1");
+                    
                     break;
                 case Type t when  t == typeof(RiceTrigger2):
                     rice2.SetActive(true);
-                    Debug.Log("Rice2");
+                    
                     break;
                 case Type t when t == typeof(FlourTrigger1):
                     flour1.SetActive(true);
-                    Debug.Log("Flour1");
+                    
                     break;
                 case Type t when t == typeof(FlourTrigger2):
                     flour2.SetActive(true);
-                    Debug.Log("Flour2");
+                    
                     break;
                 case Type t when t == typeof(CuttingBoardTrigger):
                     cuttingBoard.SetActive(true);
@@ -100,9 +100,7 @@ namespace Manager.InteractManager
                 case Type t when t == typeof(PastryBoardTrigger):
                     pastry.SetActive(true);
                     break;
-                default:
-                    Debug.LogError(type.ToString());
-                    break;
+                
             }
             
         }

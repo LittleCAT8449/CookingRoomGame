@@ -1,4 +1,5 @@
 using Manager.InventoryManager;
+using UI.Bar.CuttingBar;
 using UnityEngine;
 using Utils;
 
@@ -15,95 +16,104 @@ namespace System.CookerInteract
         public Item cuttingPumpkin;
         
         private Item[] items;
-        private Item item;
+        private Item currentItem;      // 记录当前要切的物品
+        private int currentItemIndex; // 记录当前格子
 
-        private void Awake()
+        private void Start()
         {
-            items=Inventory.Instance.GetItems();
+            items = Inventory.Instance.GetItems();
         }
 
         private void Update()
         {
-            
             PressNumber();
-            
         }
 
         public override void PressNumber()
         {
-            items=Inventory.Instance.GetItems();
-            
+            items = Inventory.Instance.GetItems();
+
             if (Input.GetKeyDown(KeyCode.Alpha1))
             {
-                CuttingBoardRecipe(items[0],0);
-                Debug.Log("Pressed 1"+items[0].name);
+                SetCurrentItem(items[0], 0);
             }
             else if (Input.GetKeyDown(KeyCode.Alpha2))
             {
-                CuttingBoardRecipe(items[1],1);
-                Debug.Log("Pressed 2"+items[1].name);
+                SetCurrentItem(items[1], 1);
             }
             else if (Input.GetKeyDown(KeyCode.Alpha3))
             {
-                CuttingBoardRecipe(items[2],2);
-                Debug.Log("Pressed 3"+items[2].name);
+                SetCurrentItem(items[2], 2);
             }
             else if (Input.GetKeyDown(KeyCode.Alpha4))
             {
-                CuttingBoardRecipe(items[3],3);
-                Debug.Log("Pressed 4"+items[3].name);
+                SetCurrentItem(items[3], 3);
             }
         }
-        
-        
 
-        private void CuttingBoardRecipe(Item item,int index)
+        // 记录当前要切的东西，而不是直接判断
+        private void SetCurrentItem(Item item, int index)
         {
+            if (item == null) return;
 
-            if (item != null)
-            {
-               string itemName = item.name;
+            currentItem = item;
+            currentItemIndex = index;
 
-               switch (itemName)
-               {
-                   case "apple":
-                       SetInventory(index,cuttingApple);
-                       Debug.Log("Set Cutting Apple");
-                       break;
-                   case "tomato":
-                       SetInventory(index,cuttingTomato);
-                       Debug.Log("Set Cutting Tomato");
-                       break;
-                   case "cucumber":
-                       SetInventory(index,cuttingCucumber);
-                       Debug.Log("Set Cutting Cucumber");
-                       break;
-                   case "carrot":
-                       SetInventory(index,cuttingCarrot);
-                       Debug.Log("Set Cutting Carrot");
-                       break;
-                   case "murshroom":
-                       SetInventory(index,cuttingMurshroom);
-                       Debug.Log("Set Cutting Murshroom");
-                       break;
-                   case  "potato":
-                       SetInventory(index,cuttingPotato);
-                       Debug.Log("Set Cutting Potato");
-                       break;
-                   case "pumpkin":
-                       SetInventory(index,cuttingPumpkin);
-                       Debug.Log("Set Cutting Pumpkin");
-                       break;
-                       
-                   
-               }
-               
-            }
-            
+            CuttingBar.instance.enterGame = true;
         }
 
-        
+        // 小游戏成功后，这里才真正切菜
+        private void OnCuttingSuccess()
+        {
+            if (currentItem == null) return;
 
+            string itemName = currentItem.name;
 
+            switch (itemName)
+            {
+                case "apple":
+                    SetInventory(currentItemIndex, cuttingApple);
+                    break;
+                case "tomato":
+                    SetInventory(currentItemIndex, cuttingTomato);
+                    break;
+                case "cucumber":
+                    SetInventory(currentItemIndex, cuttingCucumber);
+                    break;
+                case "carrot":
+                    SetInventory(currentItemIndex, cuttingCarrot);
+                    break;
+                case "murshroom":
+                    SetInventory(currentItemIndex, cuttingMurshroom);
+                    break;
+                case "potato":
+                    SetInventory(currentItemIndex, cuttingPotato);
+                    break;
+                case "pumpkin":
+                    SetInventory(currentItemIndex, cuttingPumpkin);
+                    break;
+            }
+
+            // 切完清空
+            currentItem = null;
+        }
+
+        // 失败就啥也不做
+        private void OnCuttingFail()
+        {
+            currentItem = null;
+        }
+
+        private void OnEnable()
+        {
+            CookingEventListener.st_cuttingMakingSuccessful += OnCuttingSuccess;
+            CookingEventListener.st_cuttingMakingFalse += OnCuttingFail;
+        }
+
+        private void OnDisable()
+        {
+            CookingEventListener.st_cuttingMakingSuccessful -= OnCuttingSuccess;
+            CookingEventListener.st_cuttingMakingFalse -= OnCuttingFail;
+        }
     }
 }

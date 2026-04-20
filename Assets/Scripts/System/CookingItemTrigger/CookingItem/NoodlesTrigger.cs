@@ -9,6 +9,5 @@ public class NoodlesTrigger : CookingItemParent
    protected override void InteractionItem()
    {
       Inventory.Instance.AddItem(item);
-      Debug.Log("Noodles Trigger");
    }
 }

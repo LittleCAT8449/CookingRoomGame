@@ -9,7 +9,6 @@ namespace System.CookingItemTrigger
         protected override void InteractionItem()
         {
             Inventory.Instance.AddItem(item);
-            Debug.Log("Pumpkin Interact");
         }
         
     }

@@ -33,11 +33,10 @@ public class PastryBar : MonoBehaviour
 
         if (currentMakingBar == maxMakingBar)
         {
-            Debug.Log("Making Successful");
             currentMakingBar = 0;
             setMakingStart = false;
             UI.SetActive(false);
-            CookingEventListener.st_doughMakingDone();
+            CookingEventListener.st_OndoughMakingDone();
         }
     }
 

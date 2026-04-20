@@ -9,6 +9,5 @@ public class RiceTrigger2 : CookingItemParent
     protected override void InteractionItem()
     {
         Inventory.Instance.AddItem(item);
-        Debug.Log("Rice Trigger");
     }
 }

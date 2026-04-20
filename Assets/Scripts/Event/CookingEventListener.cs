@@ -8,8 +8,9 @@ public class CookingEventListener
    public static event Action<Vector2> st_vector;
    public static event Action<Type> st_enter_type;
    public static event Action st_exit_type;
-   public static event Action doughMakingDone;
-   
+   public static event Action st_doughMakingDone;
+   public static event Action st_cuttingMakingSuccessful;
+   public static event Action st_cuttingMakingFalse;
    
    
 
@@ -28,9 +29,19 @@ public class CookingEventListener
       st_exit_type?.Invoke();
    }
 
-   public static void st_doughMakingDone()
+   public static void st_OndoughMakingDone()
    {
-      doughMakingDone?.Invoke();
+      st_doughMakingDone?.Invoke();
+   }
+
+   public static void st_OncuttingSuccessful()
+   {
+      st_cuttingMakingSuccessful?.Invoke();
+   }
+
+   public static void st_OncuttingFalse()
+   {
+      st_cuttingMakingFalse?.Invoke();
    }
 
 

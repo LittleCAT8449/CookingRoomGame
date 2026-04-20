@@ -7,6 +7,5 @@ public class RubbishTrigger : CookingItemParent
 {
     protected override void InteractionItem()
     {
-       Debug.Log("Rubbish Trigger");
     }
 }

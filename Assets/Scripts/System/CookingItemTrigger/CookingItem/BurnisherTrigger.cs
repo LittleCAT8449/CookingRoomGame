@@ -7,6 +7,6 @@ public class BurnisherTrigger : CookingItemParent
 {
     protected override void InteractionItem()
     {
-        Debug.Log("Burisher Trigger");
+       
     }
 }

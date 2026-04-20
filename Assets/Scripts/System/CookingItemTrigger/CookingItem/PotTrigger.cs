@@ -7,6 +7,5 @@ public class PotTrigger : CookingItemParent
 {
     protected override void InteractionItem()
     {
-        Debug.Log("Pot Trigger");
     }
 }

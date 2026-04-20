@@ -9,6 +9,5 @@ public class CarrotTrigger : CookingItemParent
     protected override void InteractionItem()
     {
         Inventory.Instance.AddItem(item);
-        Debug.Log("Carrot Interact");
     }
 }

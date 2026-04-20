@@ -21,22 +21,18 @@ namespace System.CookerInteract
             if (Input.GetKeyDown(KeyCode.Alpha1))
             {
                 PastryRecipe(items[0],0);
-                Debug.Log("Pressed 1"+items[0].name);
             }
             else if (Input.GetKeyDown(KeyCode.Alpha2))
             {
                 PastryRecipe(items[1],1);
-                Debug.Log("Pressed 2"+items[1].name);
             }
             else if (Input.GetKeyDown(KeyCode.Alpha3))
             {
                 PastryRecipe(items[2],2);
-                Debug.Log("Pressed 3"+items[2].name);
             }
             else if (Input.GetKeyDown(KeyCode.Alpha4))
             {
                 PastryRecipe(items[3],3);
-                Debug.Log("Pressed 4"+items[3].name);
             }
         }
 
@@ -60,12 +56,12 @@ namespace System.CookerInteract
 
         private void OnEnable()
         {
-            CookingEventListener.doughMakingDone += setDough;
+            CookingEventListener.st_doughMakingDone += setDough;
         }
 
         private void OnDisable()
         {
-            CookingEventListener.doughMakingDone -= setDough;
+            CookingEventListener.st_doughMakingDone -= setDough;
         }
 
         private void setDough()
