@@ -22,6 +22,10 @@ namespace Manager.InteractManager
         
         public GameObject cuttingBoard;
         public GameObject pastry;
+        public GameObject burnish;
+        public GameObject pot1;
+        public GameObject pot2;
+        public GameObject pot3;
         
         
         protected override void OnEnable()
@@ -100,6 +104,18 @@ namespace Manager.InteractManager
                 case Type t when t == typeof(PastryBoardTrigger):
                     pastry.SetActive(true);
                     break;
+                case Type t when t == typeof(BurnisherTrigger):
+                    burnish.SetActive(true);
+                    break;
+                case Type t when t == typeof(PotTrigger):
+                    pot1.SetActive(true);
+                    break;
+                case Type t when t == typeof(PotTrigger1):
+                    pot2.SetActive(true);
+                    break;
+                case Type t when t ==typeof(PotTrigger2) :
+                    pot3.SetActive(true);
+                    break;
                 
             }
             
@@ -122,6 +138,10 @@ namespace Manager.InteractManager
             flour2.SetActive(false);
             cuttingBoard.SetActive(false);
             pastry.SetActive(false);
+            burnish.SetActive(false);
+            pot1.SetActive(false);
+            pot2.SetActive(false);
+            pot3.SetActive(false);
         }
         
         protected override void SetType(Type type) => SwitchIcon(type);

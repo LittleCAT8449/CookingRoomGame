@@ -52,14 +52,17 @@ namespace Manager.InventoryManager
             }
             return false;
         }
-        public void ClearItem(int index)
+        public bool ClearItem(int index)
         {
             if (index >= 0 && index < 4)
             {
                 items[index] = null;
                 UpdateUI();
                 Debug.Log("Inventory cleared");
+                return true;
             }
+
+            return false;
         }
         
         public Item[] GetItems(){return items;}

@@ -223,7 +223,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: food_6
+      name: potNoodles
       rect:
         serializedVersion: 2
         x: 423
@@ -685,7 +685,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: food_28
+      name: PotPumpkin
       rect:
         serializedVersion: 2
         x: 136
@@ -832,7 +832,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: food_35
+      name: cookedRice
       rect:
         serializedVersion: 2
         x: 133
@@ -853,7 +853,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: food_36
+      name: potPotato
       rect:
         serializedVersion: 2
         x: 198
@@ -894,8 +894,10 @@ TextureImporter:
       CuttingPotato: 461168272
       CuttingPumpkinCutting: -1723470542
       CuttingTomato: -184587556
+      PotPumpkin: 1118586026
       carrot: -1545854894
       cheese: -1964706373
+      cookedRice: 1022774252
       cucumber: -1696521131
       dough: 496888982
       flour: 1788391160
@@ -906,17 +908,15 @@ TextureImporter:
       food_20: -1759373770
       food_24: 21657342
       food_25: -1987186769
-      food_28: 1118586026
       food_32: -823794388
-      food_35: 1022774252
-      food_36: 1671704522
       food_4: 285882867
       food_5: -1380180925
-      food_6: -1313821333
       food_8: -84436799
       food_9: -1570392196
       murshroom: 1964727141
       noodle: -77545792
+      potNoodles: -1313821333
+      potPotato: 1671704522
       potato: 2102051820
       punpkin: 1007156374
       rice: -1398636902
