@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: CuttingPumpkin
   m_EditorClassIdentifier: 
   itemName: cuttingPumpkin
-  itemIcon: {fileID: 0}
+  itemIcon: {fileID: -1723470542, guid: 9d865d55734445148bdea94c1391a390, type: 3}

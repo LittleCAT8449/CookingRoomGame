@@ -7426,7 +7426,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: All_349
+      name: EmptyVerticalBar
       rect:
         serializedVersion: 2
         x: 579
@@ -11699,7 +11699,6 @@ TextureImporter:
       All_346: 1035199437
       All_347: -582372425
       All_348: -2012215383
-      All_349: 806744759
       All_35: 797245725
       All_350: 138923078
       All_351: 1537051405
@@ -11960,6 +11959,7 @@ TextureImporter:
       All_97: -1390054246
       All_98: 1049887525
       All_99: -2000501127
+      EmptyVerticalBar: 806744759
       blueBar: 756726141
       empty_bar: 458122319
       green_bar: 516155255

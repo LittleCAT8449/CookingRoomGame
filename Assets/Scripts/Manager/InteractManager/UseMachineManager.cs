@@ -7,6 +7,7 @@ namespace Manager.InteractManager
     {
         public GameObject pastryBoard;
         public GameObject cuttingBoard;
+        public GameObject burnishBoard;
         
         protected override void OnEnable()
         {
@@ -31,6 +32,9 @@ namespace Manager.InteractManager
                case Type t when t == typeof(CuttingBoardTrigger):
                    cuttingBoard.gameObject.SetActive(true);
                    break;
+               case Type t when t == typeof(BurnisherTrigger):
+                   burnishBoard.gameObject.SetActive(true);
+                   break;
            }
         }
 
@@ -38,6 +42,7 @@ namespace Manager.InteractManager
         {
             pastryBoard.gameObject.SetActive(false);
             cuttingBoard.gameObject.SetActive(false);
+            burnishBoard.gameObject.SetActive(false);
         }
         
         protected override void SetType(Type type) => SwitchIcon(type);

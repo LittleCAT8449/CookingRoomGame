@@ -11,6 +11,8 @@ public class CookingEventListener
    public static event Action st_doughMakingDone;
    public static event Action st_cuttingMakingSuccessful;
    public static event Action st_cuttingMakingFalse;
+   public static event Action st_burnishMakingSuccessful;
+   public static event Action st_burnishMakingFalse;
    
    
 
@@ -42,6 +44,16 @@ public class CookingEventListener
    public static void st_OncuttingFalse()
    {
       st_cuttingMakingFalse?.Invoke();
+   }
+
+   public static void st_OnBurnishSuccessful()
+   {
+      st_burnishMakingSuccessful?.Invoke();
+   }
+
+   public static void st_OnBurnishFalse()
+   {
+      st_burnishMakingFalse?.Invoke();
    }
 
 

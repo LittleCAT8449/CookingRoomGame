@@ -412,7 +412,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: food_15
+      name: BurnishTomato
       rect:
         serializedVersion: 2
         x: 74
@@ -748,7 +748,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: food_31
+      name: BurnishCheese
       rect:
         serializedVersion: 2
         x: 313
@@ -885,6 +885,8 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Apple: 1733922550
+      BurnishCheese: 1383209115
+      BurnishTomato: -867978232
       CuttingApple: 67184043
       CuttingCarrot: 218791512
       CuttingCucumber: 1087083862
@@ -901,12 +903,10 @@ TextureImporter:
       food_10: -1183652212
       food_12: 296428272
       food_13: 66983098
-      food_15: -867978232
       food_20: -1759373770
       food_24: 21657342
       food_25: -1987186769
       food_28: 1118586026
-      food_31: 1383209115
       food_32: -823794388
       food_35: 1022774252
       food_36: 1671704522
