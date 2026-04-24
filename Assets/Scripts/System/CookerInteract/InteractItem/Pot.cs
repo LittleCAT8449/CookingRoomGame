@@ -1,4 +1,5 @@
 using Manager.InventoryManager;
+using UI.Bar.PotBar;
 using UnityEngine;
 
 namespace System.CookerInteract
@@ -15,17 +16,19 @@ namespace System.CookerInteract
 
         [Header("烹饪时间")]
         public float cookTime = 20f;
-        public float overCookDelay = 10f;
+        public float overCookDelay = 30f;
 
         [Header("可煮食材（用来判断）")]
         public Item potNoodles;
         public Item potPumpkin;
         public Item potPotato;
+        public Item potRice;
 
         [Header("煮熟后的产物")]
         public Item cookedNoodles;
         public Item cookedPumpkin;
         public Item cookedPotato;
+        public Item cookedRice;
         public Item garbage;
 
         [Header("UI - 世界空间图标")]
@@ -36,14 +39,18 @@ namespace System.CookerInteract
         public Sprite noodlesIcon;
         public Sprite pumpkinIcon;
         public Sprite potatoIcon;
+        public Sprite riceIcon;
 
         // 完成后显示的图标（成品）
         public Sprite readyNoodlesIcon;
         public Sprite readyPumpkinIcon;
         public Sprite readyPotatoIcon;
+        public Sprite readyRiceIcon;
 
         // 煮过头显示的图标
         public Sprite overcookedIcon;
+        
+        public PotBar potBar;
         
         
 
@@ -53,7 +60,9 @@ namespace System.CookerInteract
         private Item[] items;
         private E_PotState currentState = E_PotState.Idle;
         private float currentTimer = 0f;
-        private Item cookingIngredient;   // 正在烹饪的原始食材
+        private Item cookingIngredient; // 正在烹饪的原始食材
+        
+        
 
         private void Start()
         {
@@ -127,6 +136,8 @@ namespace System.CookerInteract
                         cookingIcon.sprite = pumpkinIcon;
                     else if (cookingIngredient == potPotato && potatoIcon != null)
                         cookingIcon.sprite = potatoIcon;
+                    else if (cookingIngredient == potRice && riceIcon != null)
+                        cookingIcon.sprite = riceIcon;
                     break;
 
                 case E_PotState.Ready:
@@ -136,6 +147,8 @@ namespace System.CookerInteract
                         cookingIcon.sprite = readyPumpkinIcon;
                     else if (cookingIngredient == potPotato && readyPotatoIcon != null)
                         cookingIcon.sprite = readyPotatoIcon;
+                    else if (cookingIngredient == potRice && readyRiceIcon != null)
+                        cookingIcon.sprite = readyRiceIcon;
                     break;
 
                 case E_PotState.OverCooked:
@@ -173,6 +186,15 @@ namespace System.CookerInteract
             currentTimer = 0f;
             Debug.Log($"开始烹饪 【{item.itemName}】");
             UpdateIcon();   // 显示生食材图标
+            
+            if (potBar != null)
+            {
+                potBar.SetGreenProgress(0f);
+                potBar.SetRedProgress(0f);
+                potBar.Show();
+            }
+            
+            
         }
 
         private void UpdateCookingProgress()
@@ -184,12 +206,26 @@ namespace System.CookerInteract
                     currentState = E_PotState.Ready;
                     currentTimer = 0f;
                     Debug.Log("烹饪完成！");
-                    UpdateIcon();   // 显示成品图标
+                    UpdateIcon();
+                    if (potBar != null)
+                    {
+                        potBar.SetGreenProgress(1f);
+                        potBar.SetRedProgress(0f);
+                        // 可选：不隐藏，让玩家看到满格
+                    }// 显示成品图标
                 }
                 else
                 {
                     currentTimer += Time.deltaTime;
                     // 可在此更新进度条
+                    float progress = currentTimer / cookTime;
+                    if (potBar != null)
+                    {
+                        potBar.SetGreenProgress(progress);
+                        potBar.SetRedProgress(0f);
+                        potBar.Show(); // 确保显示
+                    }
+                    
                 }
             }
             else if (currentState == E_PotState.Ready)
@@ -200,10 +236,39 @@ namespace System.CookerInteract
                     currentTimer = 0f;
                     Debug.Log("煮过头了，变成垃圾");
                     UpdateIcon();   // 显示烧焦图标
+                    
+                    if (potBar != null)
+                    {
+                        potBar.SetGreenProgress(0f);
+                        potBar.SetRedProgress(0f);
+                        potBar.Show();
+                    }
+                    
                 }
                 else
                 {
                     currentTimer += Time.deltaTime;
+                    if (potBar != null)
+                    {
+                        potBar.SetGreenProgress(1f);
+                        potBar.SetRedProgress(0f);
+                    }
+                    
+                    
+                }
+            }
+            else if (currentState == E_PotState.OverCooked)
+            {
+                if (currentTimer < overCookDelay) // 假设过头阶段也持续一段时间增长红色条
+                {
+                    currentTimer += Time.deltaTime;
+                    float progress = currentTimer / overCookDelay;
+                    Debug.Log($"红色进度: {progress}");
+                    if (potBar != null)
+                    {
+                        potBar.SetGreenProgress(0f);
+                        potBar.SetRedProgress(progress);
+                    }
                 }
             }
         }
@@ -230,7 +295,7 @@ namespace System.CookerInteract
 
         private bool IsCookable(Item item)
         {
-            return item == potNoodles || item == potPumpkin || item == potPotato;
+            return item == potNoodles || item == potPumpkin || item == potPotato||item == potRice;
         }
 
         private void TakeFood()
@@ -256,6 +321,9 @@ namespace System.CookerInteract
             currentTimer = 0f;
             cookingIngredient = null;
             UpdateIcon();   // 隐藏图标
+            if (potBar != null)
+                potBar.Hide();
+           
         }
 
         private Item GetCookedOutput(Item raw)
@@ -263,7 +331,10 @@ namespace System.CookerInteract
             if (raw == potNoodles) return cookedNoodles;
             if (raw == potPumpkin) return cookedPumpkin;
             if (raw == potPotato) return cookedPotato;
+            if (raw == potRice) return cookedRice;
             return null;
         }
+        
+        
     }
 }

@@ -7489,7 +7489,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: All_352
+      name: verticalGreenBar
       rect:
         serializedVersion: 2
         x: 630
@@ -7741,7 +7741,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: All_364
+      name: VerticalYellowBar
       rect:
         serializedVersion: 2
         x: 822
@@ -7846,7 +7846,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: All_369
+      name: VerticalUI
       rect:
         serializedVersion: 2
         x: 902
@@ -11702,7 +11702,6 @@ TextureImporter:
       All_35: 797245725
       All_350: 138923078
       All_351: 1537051405
-      All_352: 2086105121
       All_353: -829913973
       All_354: 450795548
       All_355: 1292356758
@@ -11715,12 +11714,10 @@ TextureImporter:
       All_361: 970354304
       All_362: 1082609634
       All_363: -1993639470
-      All_364: 409808910
       All_365: -559147702
       All_366: -1004907238
       All_367: 1672318958
       All_368: -2123806782
-      All_369: 1858650728
       All_37: -1123083494
       All_370: 679803545
       All_371: -1535919245
@@ -11960,10 +11957,13 @@ TextureImporter:
       All_98: 1049887525
       All_99: -2000501127
       EmptyVerticalBar: 806744759
+      VerticalUI: 1858650728
+      VerticalYellowBar: 409808910
       blueBar: 756726141
       empty_bar: 458122319
       green_bar: 516155255
       redBar: 279005936
+      verticalGreenBar: 2086105121
       yellowBar: -209325325
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
