@@ -20,6 +20,7 @@ public class PastryBar : MonoBehaviour
         setMakingStart = false;
         currentMakingBar = 0;
         UI.SetActive(false);
+        
     }
 
     // Update is called once per frame
