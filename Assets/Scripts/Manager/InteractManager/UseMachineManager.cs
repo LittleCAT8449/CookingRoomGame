@@ -8,7 +8,8 @@ namespace Manager.InteractManager
         public GameObject pastryBoard;
         public GameObject cuttingBoard;
         public GameObject burnishBoard;
-        public GameObject coffeeBoard;
+        public GameObject rubbishBin1;
+        public GameObject rubbishBIn2;
         
         protected override void OnEnable()
         {
@@ -36,7 +37,12 @@ namespace Manager.InteractManager
                case Type t when t == typeof(BurnisherTrigger):
                    burnishBoard.gameObject.SetActive(true);
                    break;
-               
+               case Type t when t == typeof(RubbishTrigger1):
+                   rubbishBin1.gameObject.SetActive(true);
+                   break;
+               case Type t when t == typeof(RubbishTrigger2):
+                   rubbishBIn2.gameObject.SetActive(true);
+                   break;
            }
         }
 
@@ -45,6 +51,8 @@ namespace Manager.InteractManager
             pastryBoard.gameObject.SetActive(false);
             cuttingBoard.gameObject.SetActive(false);
             burnishBoard.gameObject.SetActive(false);
+            rubbishBin1.gameObject.SetActive(false);
+            rubbishBIn2.gameObject.SetActive(false);
             
         }
         

@@ -1599,7 +1599,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8739898306893834824}
   - component: {fileID: 6125354561969457077}
-  - component: {fileID: 6780959743507879843}
   m_Layer: 0
   m_Name: rubbishbin2
   m_TagString: Untagged
@@ -1667,19 +1666,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.86399627, y: 1.0304292}
   m_EdgeRadius: 0
---- !u!114 &6780959743507879843
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7083763120168654655}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef4a88748f8185b4caf0a4200410c1c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 0}
 --- !u!1 &7940708314813465345
 GameObject:
   m_ObjectHideFlags: 0
