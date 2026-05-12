@@ -97,7 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: food_0
+      name: Food_PotatoPizza
       rect:
         serializedVersion: 2
         x: 10
@@ -181,7 +181,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: food_4
+      name: Food_Chips
       rect:
         serializedVersion: 2
         x: 237
@@ -202,7 +202,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: food_5
+      name: Food_Bread
       rect:
         serializedVersion: 2
         x: 329
@@ -265,7 +265,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: food_8
+      name: Food_FriedRice
       rect:
         serializedVersion: 2
         x: 71
@@ -286,7 +286,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: food_9
+      name: Food_TomatoPizza
       rect:
         serializedVersion: 2
         x: 124
@@ -307,7 +307,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: food_10
+      name: Food_Dumpling
       rect:
         serializedVersion: 2
         x: 191
@@ -349,7 +349,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: food_12
+      name: Food_MurshroomPasta
       rect:
         serializedVersion: 2
         x: 310
@@ -370,7 +370,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: food_13
+      name: Food_ApplePie
       rect:
         serializedVersion: 2
         x: 380
@@ -517,11 +517,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: food_20
+      name: Food_MashedPotato
       rect:
         serializedVersion: 2
         x: 67
-        y: 105
+        y: 106
         width: 33
         height: 27
       alignment: 0
@@ -601,7 +601,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: food_24
+      name: Food_PumpkinPorridge
       rect:
         serializedVersion: 2
         x: 313
@@ -622,7 +622,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: food_25
+      name: Food_RiceRoll
       rect:
         serializedVersion: 2
         x: 379
@@ -769,7 +769,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: food_32
+      name: Food_GreenSalad
       rect:
         serializedVersion: 2
         x: 386
@@ -894,6 +894,18 @@ TextureImporter:
       CuttingPotato: 461168272
       CuttingPumpkinCutting: -1723470542
       CuttingTomato: -184587556
+      Food_ApplePie: 66983098
+      Food_Bread: -1380180925
+      Food_Chips: 285882867
+      Food_Dumpling: -1183652212
+      Food_FriedRice: -84436799
+      Food_GreenSalad: -823794388
+      Food_MashedPotato: -1759373770
+      Food_MurshroomPasta: 296428272
+      Food_PotatoPizza: 1884232824
+      Food_PumpkinPorridge: 21657342
+      Food_RiceRoll: -1987186769
+      Food_TomatoPizza: -1570392196
       PotPumpkin: 1118586026
       carrot: -1545854894
       cheese: -1964706373
@@ -901,18 +913,6 @@ TextureImporter:
       cucumber: -1696521131
       dough: 496888982
       flour: 1788391160
-      food_0: 1884232824
-      food_10: -1183652212
-      food_12: 296428272
-      food_13: 66983098
-      food_20: -1759373770
-      food_24: 21657342
-      food_25: -1987186769
-      food_32: -823794388
-      food_4: 285882867
-      food_5: -1380180925
-      food_8: -84436799
-      food_9: -1570392196
       murshroom: 1964727141
       noodle: -77545792
       potNoodles: -1313821333
