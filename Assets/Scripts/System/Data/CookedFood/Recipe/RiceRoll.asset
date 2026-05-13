@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8b08a2207994114a6dddb713f87206e, type: 3}
+  m_Name: RiceRoll
+  m_EditorClassIdentifier: 
+  outPutItem: {fileID: 11400000, guid: ead2860b02602ba4896ba417f15f6481, type: 2}
+  ingredient:
+  - {fileID: 11400000, guid: 928d28af2d25c6d4eb29dc11d49fb2ea, type: 2}
+  - {fileID: 11400000, guid: 6895a4380a1abd144b9c348b70d9f284, type: 2}

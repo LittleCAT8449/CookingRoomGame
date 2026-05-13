@@ -29,6 +29,7 @@ namespace Manager.InteractManager
         public GameObject coffee;
         
         
+        
         protected override void OnEnable()
         {
             CookingEventListener.st_enter_type += SetType;

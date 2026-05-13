@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8b08a2207994114a6dddb713f87206e, type: 3}
+  m_Name: Dumplings
+  m_EditorClassIdentifier: 
+  outPutItem: {fileID: 11400000, guid: aabe5c1331135474687d4f66dbed0ce0, type: 2}
+  ingredient:
+  - {fileID: 11400000, guid: f39928c6979e8054dbb189c235733917, type: 2}
+  - {fileID: 11400000, guid: a1294b6ecf31d7641ab3ccd6d9393e7e, type: 2}
+  - {fileID: 11400000, guid: c485a6c631940a745bbd50e3f952dcfb, type: 2}

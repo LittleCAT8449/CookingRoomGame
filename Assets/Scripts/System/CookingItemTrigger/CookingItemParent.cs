@@ -39,6 +39,7 @@ namespace System.CookingItemTrigger
         {
            
             CookingEventListener.st_OnEnterType(GetType());
+            
         }
 
 
