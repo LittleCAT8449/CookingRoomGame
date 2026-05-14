@@ -64,6 +64,19 @@ namespace Manager.InventoryManager
 
             return false;
         }
+
+        public bool RemoveItem(Item item)
+        {
+            for (int i = 0; i < 4; i++)
+            {
+                if (items[i] == item)
+                {
+                    return ClearItem(i);
+                }
+            }
+
+            return false;
+        }
         
         public Item[] GetItems(){return items;}
 
