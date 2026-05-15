@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: CuttingTomato
   m_EditorClassIdentifier: 
   itemName: cuttingTomato
-  itemIcon: {fileID: -1723470542, guid: 9d865d55734445148bdea94c1391a390, type: 3}
+  itemIcon: {fileID: -184587556, guid: 9d865d55734445148bdea94c1391a390, type: 3}

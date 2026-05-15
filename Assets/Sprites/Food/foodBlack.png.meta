@@ -433,7 +433,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: foodBlack_16
+      name: black_CuttingTomato
       rect:
         serializedVersion: 2
         x: 128
@@ -891,6 +891,7 @@ TextureImporter:
       black_CuttingMurshroom: -1558782010
       black_CuttingPotato: -223284112
       black_CuttingPumpkin: -951032553
+      black_CuttingTomato: -272922060
       black_Dough: 2034538130
       black_burishTomato: 1004127906
       black_potNuddles: -55489591
@@ -903,7 +904,6 @@ TextureImporter:
       foodBlack_12: 1016181461
       foodBlack_13: -1670207131
       foodBlack_14: 2030515332
-      foodBlack_16: -272922060
       foodBlack_18: 1634375758
       foodBlack_2: 715717820
       foodBlack_20: 1702012666

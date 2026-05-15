@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78d3444e2554cf14fa9c80ebc1ea163c, type: 3}
   m_Name: Cagabien
   m_EditorClassIdentifier: 
-  itemName: "\u5361\u52A0\u6BD4\u6069"
+  itemName: Cagabien
   itemIcon: {fileID: 21300000, guid: af2299d442fdea34bb5cb537dd2e7e08, type: 3}

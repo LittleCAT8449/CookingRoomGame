@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8b08a2207994114a6dddb713f87206e, type: 3}
   m_Name: GreenSalad
   m_EditorClassIdentifier: 
-  outPutItem: {fileID: 0}
-  ingredient: []
+  outPutItem: {fileID: 11400000, guid: 7349d8d7538191449b82da01a8970d04, type: 2}
+  ingredient:
+  - {fileID: 11400000, guid: a9b7e4987969b2d4ba328e9f03378eb7, type: 2}
+  - {fileID: 11400000, guid: e463babc696e36d4ba1ed3a120942510, type: 2}
+  - {fileID: 11400000, guid: 6895a4380a1abd144b9c348b70d9f284, type: 2}
